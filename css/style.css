@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+/*banner*/
+#banner, #logo, #titolo, .button-bar, #colore-section, .bianco, .new-task{
+    background-color: red;
+}
+
+#banner{
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#logo{
+    width: 70px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+h1{
+    display: inline;
+}
+/* main */
+
+.button-bar{
+    margin: 2% 20% 0% 20%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 25px;
+    height: 70px;  
+    padding: 20px; 
+}
+
+.button-class{
+    width: 125px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+#colore-task{
+    background-color: #47adf1;
+    color: white;
+    border: solid #47adf1;
+}
+
+#colore-section{
+    border: solid 1px grey;
+    color: grey;
+}
+
+.azzurro{
+    background-color: #47adf1;
+}
+
+.container{
+    margin: 2px 20% 0% 20%;
+}
+
+.new-task{
+    padding-left: 20px;
 }
