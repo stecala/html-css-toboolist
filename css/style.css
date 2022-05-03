@@ -10,7 +10,7 @@ body{
 }
 /*banner*/
 #banner, #logo, #titolo, .button-bar, #colore-section, .bianco, .new-task{
-    background-color: red;
+    background-color: white;
 }
 
 #banner{
@@ -61,8 +61,29 @@ h1{
 
 .container{
     margin: 2px 20% 0% 20%;
+    line-height: 30px;
 }
 
 .new-task{
+    padding-top: 25px;
     padding-left: 20px;
+}
+
+.check{
+    border: rgb(36, 161, 36) solid;
+    border-radius: 100%;
+    color: rgb(36, 161, 36);
+    display: inline-block;
+    width: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dim-testo{
+    font-size: 10px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
 }
